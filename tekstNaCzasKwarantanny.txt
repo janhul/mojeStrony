@@ -1,0 +1,14 @@
+﻿Na czas kwarantanny
+
+
+Jeżeli jesteś uczniem szkoły podstawowej lub ponadpodstawowej, studiujesz bądź pracujesz, to bardzo dobrze wiesz, że podczas dłuższego pobytu w domu przeważnie zapomina się o utrzymaniu kondycji fizycznej. Dlatego właśnie chcemy Ci pokazać kilka krótkich filmików, abyś choć od czasu do czasu spróbował się trochę poruszać.
+
+Najpierw coś na rozgrzewkę:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C75aPtGx-e0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Jak jesteś już po rozgrzewce to proponujemy ci następujący filmik:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wFgZRt1Kyf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
