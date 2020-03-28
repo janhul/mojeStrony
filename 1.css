@@ -1,19 +1,16 @@
-body
-{
+body {
     /* Background pattern from Toptal Subtle Patterns */
     background-image: url(dark-honeycomb/dark-honeycomb.png);
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
 
-#container
-{
+.page-container {
     width: 100%;
     font-size: 24px;
 }
 
-#title
-{
+.page-title {
     margin: 50px;
     width: 100%;
     margin-left: auto;
@@ -24,8 +21,7 @@ body
     color: #a04242;
 }
 
-#menu2
-{
+.menu-container {
     width: 100%;
     background-color: #a04242;
     border-top: 2px solid #5f0e0e;
@@ -34,56 +30,37 @@ body
     top: 0;
 }
 
-#menu1
-{
-    width: 998px;
+.menu-container {
+    width: 100%;
     text-align: center;
     height: 32px;
     background-color: #a04242;
-    margin-left: auto;
-    margin-right: auto;
     padding: 5px;
     font-size: 28px;
+    display: flex;
+    justify-content: center;
 }
 
-#menuoption1
-{
+.menu-item {
     float: left;
     width: 330px;
     border-left: 2px dashed rgba(39, 39, 39, 0.95);
+}
+
+.menu-item:last-child {
     border-right: 2px dashed rgba(39, 39, 39, 0.95);
 }
 
-#menuoption2
-{
-    float: left;
-    width: 330px;
-    border-right: 2px dashed rgba(39, 39, 39, 0.95);
-}
-
-#menuoption3
-{
-    float: left;
-    width: 330px;
-    border-right: 2px dashed rgba(39, 39, 39, 0.95);
-}
-
-#menu
-{
-    color: white;
-}
-
-#content
-{
+.content {
     width: 998px;
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
+    color: white;
 }
 
-#contenttitle
-{
+.content-title {
     font-size: 28px;
     width: 400px;
     margin-left: auto;
@@ -93,8 +70,7 @@ body
     padding: 5px;
 }
 
-#footer
-{
+footer {
     width: 100%;
     background-color: #a04242;
     padding: 20px;
