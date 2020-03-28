@@ -18,13 +18,13 @@ body {
     text-align: center;
     font-size: 64px;
     font-weight: 600;
-    color: #a04242;
+    color: #a23e3e;
     letter-spacing: 3px;
 }
 
 .menu-container {
     width: 100%;
-    background-color: #e24a4a;
+    background-color: #a23e3e;
     border-top: 2px solid #5f0e0e;
     border-bottom: 2px solid #5f0e0e;
     position: sticky;
@@ -73,7 +73,7 @@ body {
 
 footer {
     width: 100%;
-    background-color: #e24a4a;
+    background-color: #a23e3e;
     padding: 20px;
     text-align: center;
     margin-top: 30px;
