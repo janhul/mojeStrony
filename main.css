@@ -1,6 +1,6 @@
 body {
     /* Background pattern from Toptal Subtle Patterns */
-    background: linear-gradient(#6555553d, #6555553d), url(dark-honeycomb/dark-honeycomb.png);
+    background: linear-gradient(#6555553d, #6555553d), url(assets/dark-honeycomb.png);
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
