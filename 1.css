@@ -1,6 +1,6 @@
 body {
     /* Background pattern from Toptal Subtle Patterns */
-    background-image: url(dark-honeycomb/dark-honeycomb.png);
+    background: linear-gradient(#6555553d, #6555553d), url(dark-honeycomb/dark-honeycomb.png);
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
@@ -19,11 +19,12 @@ body {
     font-size: 64px;
     font-weight: 600;
     color: #a04242;
+    letter-spacing: 3px;
 }
 
 .menu-container {
     width: 100%;
-    background-color: #a04242;
+    background-color: #e24a4a;
     border-top: 2px solid #5f0e0e;
     border-bottom: 2px solid #5f0e0e;
     position: sticky;
@@ -72,10 +73,12 @@ body {
 
 footer {
     width: 100%;
-    background-color: #a04242;
+    background-color: #e24a4a;
     padding: 20px;
     text-align: center;
     margin-top: 30px;
     border-top: 2px solid #5f0e0e;
+    font-size: 34px;
+    letter-spacing: 3px;
 }
 
