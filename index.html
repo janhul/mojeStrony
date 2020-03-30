@@ -9,36 +9,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link rel="stylesheet" href="main.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,600&display=swap&subset=latin-ext" rel="stylesheet">
+    <script src="src/index.js"></script>
 </head>
 
 <body>
     <div class="page-container">
         <div class="page-title">RuszTyłek.pl</div>
         <div class="menu-container">
-            <div class="menu-item">Na czas kwarantanny</div>
+            <div id="page1" class="menu-item js-menu-item is-active">Na czas kwarantanny</div>
             <div class="menu-item">Stałe treningi
-                <div class="menu-item-subitem"><a href="#">Level 1</a> </div>
-                <div class="menu-item-subitem"><a href="#">Level 2</a> </div>
-                <div class="menu-item-subitem"><a href="#">Level 3</a> </div>
+                <div id="page2" class="menu-item-subitem js-menu-item">Level 1</div>
+                <div id="page3" class="menu-item-subitem js-menu-item">Level 2</div>
+                <div id="page4" class="menu-item-subitem js-menu-item">Level 3</div>
             </div>
         </div>
         <div class="content">
-            <article>
-                <div class="content-title">Na czas kwarantanny</div>
-                <p>Jeżeli jesteś uczniem szkoły podstawowej lub ponadpodstawowej, studiujesz bądź pracujesz, to bardzo dobrze wiesz, że podczas dłuższego pobytu w domu przeważnie zapomina się o utrzymaniu kondycji fizycznej. Dlatego właśnie chcemy Ci pokazać kilka krótkich filmików, abyś choć od czasu do czasu spróbował się trochę poruszać.</p>
-                <p>Najpierw coś na rozgrzewkę: <br><br>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/C75aPtGx-e0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </p>
+            <article class="page-content js-page1 is-active">
+                <h1>Na czas kwarantanny</h1>
+                <p>Jeżeli jesteś uczniem szkoły podstawowej lub ponadpodstawowej, studiujesz bądź pracujesz, to bardzo
+                    dobrze wiesz,
+                    że podczas dłuższego pobytu w domu przeważnie zapomina się o utrzymaniu kondycji fizycznej. Dlatego
+                    właśnie chcemy
+                    Ci pokazać kilka krótkich filmików, abyś choć od czasu do czasu spróbował się trochę poruszać.</p>
+                <p>Najpierw coś na rozgrzewkę:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/C75aPtGx-e0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
             </article>
-            <article>
-                <div class="content-title">Po rozgrzewce</div>
-                <p>Jak jesteś już po rozgrzewce to proponujemy ci następujący filmik:<br><br> </p>
 
-                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/wFgZRt1Kyf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </p>
+            <article class="page-content js-page2">
+                <h1>Po rozgrzewce</h1>
+                <p>Jak jesteś już po rozgrzewce to proponujemy ci następujący filmik:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wFgZRt1Kyf8" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
             </article>
-            <article>
-                <div class="content-title">33</div>
+
+            <article class="page-content js-page3">
+                <h1>33</h1>
                 <p>Pellentesque vitae sagittis tellus. Integer vitae nunc posuere, finibus risus molestie, luctus ipsum.
                     Praesent non ex molestie, gravida urna eu, sollicitudin risus. Curabitur mattis arcu nec lacus porta
                     feugiat. Vivamus malesuada pulvinar pharetra. Cras laoreet venenatis urna eu consectetur. Vivamus
@@ -55,8 +63,9 @@
                     Maecenas mauris velit, varius sit amet aliquet in, luctus quis sem. Sed elit ex, tincidunt pharetra
                     eros non, dapibus porttitor purus. Donec vestibulum ornare odio, nec euismod nunc.</p>
             </article>
-            <article>
-                <div class="content-title">44</div>
+
+            <article class="page-content js-page4">
+                <h1>44</h1>
                 <p>Pellentesque vitae sagittis tellus. Integer vitae nunc posuere, finibus risus molestie, luctus ipsum.
                     Praesent non ex molestie, gravida urna eu, sollicitudin risus. Curabitur mattis arcu nec lacus porta
                     feugiat. Vivamus malesuada pulvinar pharetra. Cras laoreet venenatis urna eu consectetur. Vivamus
